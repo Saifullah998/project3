@@ -140,6 +140,8 @@
     height: 3040px;
     background: #FFF;
     gap: 55;
+    text-align: center;
+    justify-content: center;
 }
                                     
 .partners-content{
@@ -147,9 +149,50 @@
 flex-direction: column;
 align-items: center;
 gap: 16px;
+padding-top: 60px;
+}
+.partners-content p{
+    color: var(--Color-Green-100, #74C69D);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Typography / Label / Bold */
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 20px */
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.partners-content h2{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+
+
+font-family: "Crimson Text";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+}
+.partners-content span{
+    color: var(--Text_Black, #000);
+text-align: center;
+
+
+
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%;
 }
 .partners-icons{
+    padding-top: 55px;
 display: flex;
+max-width: 100%;
 justify-content: center;
 align-items: center;
 gap: 68px;
@@ -160,8 +203,7 @@ gap: 68px;
 }
 .prtners-container button{
     max-width: 170px;
-    text-align: center;
-    justify-content: center;
+   
      height: 48px;
      border-radius: 5px;
 background: var(--color-dark, #212529);
@@ -171,11 +213,12 @@ font-feature-settings: 'liga' off, 'clig' off;
 
 /* Typography/Sub-Heading/Regular */
 font-family: "Work Sans";
-font-size: 20px;
+font-size: 19px;
 font-style: normal;
 font-weight: 400;
 line-height: 125%; /* 25px */
-
+margin-top: 55px;
+padding: 13px 29.5px 10px 29.5px;
 }
 
 
@@ -188,6 +231,15 @@ line-height: 125%; /* 25px */
 
 
 /* Media Queries */
+
+@media screen and (max-width:1040px) {
+    /* .partners-content */
+    
+     .partners-icons{
+        display: flex;
+        flex-wrap: wrap;
+     }
+}
 
 /* 768px to 800px */
 @media screen and (min-width: 768px) and (max-width: 800px) {
@@ -222,6 +274,12 @@ line-height: 125%; /* 25px */
     .content button {
         margin: 0 auto;
     }
+                 /* .partners-content */
+                 
+                 .partners-icons{
+                    display: flex;
+                    flex-wrap: wrap;
+                 }
 }
 
 /* For tablets (500px to 768px) */
@@ -382,5 +440,31 @@ line-height: 125%; /* 37.5px */
     .content button:hover {
         background-color: #f0f0f0; /* Add hover effect */
     }
+
+                       /* partners-section */
+                       .partners-content p{
+                        font-size: 16px;
+                       }
+                       .partners-content h2{
+                        font-size: 24px;
+                       }
+                       .partners-content span{
+                        font-size: 20px;
+                        text-align: center;
+                       }
+                       .partners-content span:nth-of-type(2){
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 125%
+                       }
+                       .prtners-container button{
+                      
+                        
+                        /* Typography/Sub-Heading/Regular */
+                        font-family: "Work Sans";
+                        font-size: 19px;
+                     
+                        
+                       }
 }
 
