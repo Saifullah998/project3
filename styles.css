@@ -15,7 +15,7 @@
 
 /* Navbar */
 .navbar {
-    padding: 35px 130px 0px 130px;
+    padding: 35px 0px 0px 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@
 .navigation-links ul {
     display: flex;
     gap: 30px;
-    margin-right: -194px;
+    /* margin-right: -194px; */
     list-style: none;
 }
 
@@ -137,7 +137,7 @@
 
 .prtners-container{
     max-width: 1440px;
-   
+   margin: auto;
     background: #FFF;
     gap: 55;
     text-align: center;
@@ -239,6 +239,7 @@ padding: 13px 29.5px 10px 29.5px;
 
                                      /* connection-container */
                                      .coonection-main-container {
+                                        margin: auto;
                                         margin-top: 73px;
                                         max-width: 1440px;
                                         background-color: #ffffff;
@@ -253,7 +254,8 @@ padding: 13px 29.5px 10px 29.5px;
                                         justify-content: center; /* Centers content horizontally inside the container */
                                         align-items: center; /* Centers image and content vertically */
                                         width: 100%; /* Make it take full width */
-                                        max-width: 1030px; /* Set the max width to control its size */
+                                        max-width: 1110px; 
+                                        /* max-width: 1180px; */
                                        gap: 20px;
                                     }
                                     
@@ -297,6 +299,222 @@ padding: 13px 29.5px 10px 29.5px;
                                         font-weight: 400;
                                         line-height: 125%; /* 25px */
                                     }
+
+
+
+
+
+
+
+
+                                    /* connection-main-container2 */
+
+
+
+                                    .connection-main-container2{
+                                        margin: auto;
+                                        padding-top: 73px;
+                                        max-width: 1440px;
+                                        background-color: #ffffff;
+                                        display: flex;
+                                        justify-content: center; /* Centers child elements horizontally */
+                                        align-items: center; /* Centers child elements vertically if needed */
+                                        padding: 0 20px; /* Optional: Adds some padding to the sides for smaller screens */
+                                    }
+                                    .connection-container2{
+                                        display: flex;
+                                        justify-content: center; /* Centers content horizontally inside the container */
+                                        align-items: center; /* Centers image and content vertically */
+                                        width: 100%; /* Make it take full width */
+                                        max-width: 1110px; 
+                                        /* max-width: 1180px; */
+                                       gap: 20px;
+                                    }
+                                    
+
+                                    .connection-img2 img {
+                                        max-width: 600px; /* Ensure image doesn't exceed this width */
+                                        height: auto; /* Maintain aspect ratio */
+                                    }
+                                    
+                                    .connection-container2 .con-content2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start; /* Aligns text to the left */
+                                        gap: 16px;
+                                    }
+                                    
+                                    .con-content2 h2 {
+                                        color: var(--Color-Dark-100, #212529);
+                                        font-family: "Crimson Text";
+                                        font-size: 40px;
+                                        font-weight: 700;
+                                        line-height: 125%; /* 50px */
+                                    }
+                                    
+                                    .con-content2 p {
+                                        color: var(--Color-Dark-50, rgba(33, 37, 41, 0.50));
+                                        font-family: "Work Sans";
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 125%; /* 18.75px */
+                                    }
+                                    
+                                    .con-content2 button {
+                                        width: 170px;
+                                        height: 48px;
+                                        border-radius: 5px;
+                                        background: var(--color-dark, #212529);
+                                        color: #FFF;
+                                        text-align: center;
+                                        font-family: "Work Sans";
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        line-height: 125%; /* 25px */
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    /* team-container */
+                                    /* .team-main-container{
+                                        margin-top: 73px;
+                                        max-width: 1440px;
+                                        background-color: #ffffff;
+                                        display: flex;
+                                        justify-content: center; 
+                                        align-items: center; 
+                                        padding: 0 20px; 
+                                    } */
+
+                                    .team-container{
+                                        max-width: 1440px;
+   
+                                        background: #FFF;
+                                        gap: 55;
+                                        text-align: center;
+                                        justify-content: center;
+                                    }
+                                    .team-info{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        gap: 16px;
+                                    }
+                                    .team-name-etc{
+                                        padding-top: 45px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        gap: 47px;
+                                    }
+                                    .outer-block-team{
+                                        width: 238px;
+                                        height: 299px;
+                                        border-radius: 5px;
+                                        background: #FFF;
+                                        box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+
+                                    }
+                                    .member{
+                                        display: inline-flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        gap: 19px;
+
+                                    }
+                                    .member img{
+                                        max-width: 175px;
+                                       height: auto;
+                                       border-radius: 100%;
+                                    }
+                                    .member h6{
+                                        color: var(--color-dark, #212529);
+                                        display: flex;
+                                        align-self: start;
+
+
+                                    /* Typography / Heading / Bold 4 */
+                                    font-family: "Crimson Text";
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 125%; /* 30px */
+                                    }
+                                    .member p{
+                                        color: var(--Color-Dark-75, rgba(33, 37, 41, 0.75));
+
+                                                display: flex;
+                                         align-self: start;
+                                        font-family: "Work Sans";
+                                        font-size: 15px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 125%; /* 18.75px */
+                                    }
+
+
+
+
+
+
+
+                                    /* footer */
+                                    .footer {
+                                        width: 100%;
+                                        /* max-width: 1440px; */
+                                        margin: auto;
+                                        height: auto;
+                                        background: #74C69D; /* Green background */
+                                        margin-top: 54px;
+                                        padding: 20px 0; /* Top and bottom padding */
+                                    }
+                                    
+                                    .footer-container {
+                                        display: flex;
+                                        max-width: 1125px;
+                                        width: 100%;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        margin: 0 auto;
+                                        padding: 0 20px; /* Adds space on the left and right */
+                                    }
+                                    
+                                    .footer-icons {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 20px; /* Space between icons */
+                                    }
+                                    
+                                    .footer-icons img {
+                                        width: 26px;
+                                        height: auto; /* Maintains aspect ratio */
+                                    }
+                                    
+                                    .footer-all-right-reserved {
+                                        color: #FFF; /* White text */
+                                        text-align: right;
+                                        font-family: "Work Sans", sans-serif; /* Ensure the font is included */
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 125%; /* Adjusts text spacing */
+                                        flex: 1; /* Adjusts alignment dynamically */
+                                    }
+                                    
+                                    
+                                
+
                                     
 /* Media Queries */
 
@@ -321,6 +539,33 @@ padding: 13px 29.5px 10px 29.5px;
         align-items: center;
         text-align: center;
         justify-content: center;
+     }
+      /* for connectionSection2 */
+
+      .connection-container2{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .con-content2{
+        order: 2;
+     }
+     .connection-img2{
+        order: 1;
+     }
+
+     /* team */
+     .team-name-etc{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     /* footer */
+
+     .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
      }
 }
 
@@ -363,6 +608,20 @@ padding: 13px 29.5px 10px 29.5px;
                     display: flex;
                     flex-wrap: wrap;
                  }
+
+                 /* for connectionSection2 */
+
+                 .connection-container2{
+                    display: flex;
+                    flex-wrap: wrap;
+                 }
+                 .con-content2{
+                    order: 2;
+                 }
+                 .connection-img2{
+                    order: 1;
+                 }
+                 
 }
 
 /* For tablets (500px to 768px) */
@@ -419,7 +678,7 @@ line-height: 125%; /* 37.5px */
 
     .content h1 {
         text-align: start;
-        /* width: 335px; */
+        width: 335px;
         font-size: 28px;
     }
     .hero-welcome{
@@ -467,7 +726,7 @@ gap: 30px;
         align-items: flex-start;
         align-self: flex-start;
         text-align: start;
-        font-size: 24px;
+        font-size: 22px;
     }
     .con-content p{
         display: flex;
@@ -485,6 +744,25 @@ gap: 30px;
 
         font-size: 20px;
     }
+
+
+     /* for connectionSection2 */
+
+     .connection-container2{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .con-content2{
+        order: 2;
+        margin: auto;
+     }
+     .connection-img2{
+        order: 1;
+     }
+     .connection-img2 img{
+        max-width: 100%;
+        margin: auto;
+     }
 }
 
 /* For small mobile (300px to 500px) */
@@ -518,8 +796,8 @@ gap: 30px;
     }
 
     .content {
-        max-width: 90%;
-        margin-left: 25px;
+        max-width: 100%;
+        /* margin-left: 25px; */
         padding: 0;
     }
 
@@ -543,7 +821,7 @@ gap: 30px;
     }
 
     .hero-image img {
-        width: 80%; /* Ensure image scales well */
+        width: 100%; /* Ensure image scales well */
         margin: 0 auto; /* Center the image */
     }
 
@@ -587,5 +865,69 @@ gap: 30px;
                      
                         
                        }
+
+
+
+                        /* for connectionSection2 */
+
+                 .connection-container2{
+                    display: flex;
+                    flex-wrap: wrap;
+                 }
+                 .con-content2 h2{
+                    font-size: 22px;
+                 }
+                 .con-content2 p{
+                    font-size: 15px;
+                 }
+                 .con-content2 button{
+                    font-size: 20px;
+                 }
+
+             /* team */
+             .team-container{
+                text-align: center;
+                justify-content: center;
+             }
+             .team-container-content p{
+                font-size: 16px;
+                font-family: "Work Sans";
+             }
+             .team-container-content h2{
+                font-family: "Crimson Text";
+font-size: 24px;
+             }
+             .team-container-content span{
+                color: var(--Text_Black, #000);
+text-align: center;
+
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+             }
+             .team-container-content span:nth-child(2){
+                color: var(--Text_Black, #000);
+text-align: center;
+
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+             }
+
+
+
+             /* Footer */
+.footer-icons img{
+             width: 9.641px;
+height: auto;
+}
+.footer-all-right-reserved{
+    font-family: "Work Sans";
+font-size: 16px;
+}
 }
 
