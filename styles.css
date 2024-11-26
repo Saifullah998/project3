@@ -137,7 +137,7 @@
 
 .prtners-container{
     max-width: 1440px;
-    height: 3040px;
+   
     background: #FFF;
     gap: 55;
     text-align: center;
@@ -230,6 +230,74 @@ padding: 13px 29.5px 10px 29.5px;
 
 
 
+
+
+
+
+
+
+
+                                     /* connection-container */
+                                     .coonection-main-container {
+                                        margin-top: 73px;
+                                        max-width: 1440px;
+                                        background-color: #ffffff;
+                                        display: flex;
+                                        justify-content: center; /* Centers child elements horizontally */
+                                        align-items: center; /* Centers child elements vertically if needed */
+                                        padding: 0 20px; /* Optional: Adds some padding to the sides for smaller screens */
+                                    }
+                                    
+                                    .connection-container {
+                                        display: flex;
+                                        justify-content: center; /* Centers content horizontally inside the container */
+                                        align-items: center; /* Centers image and content vertically */
+                                        width: 100%; /* Make it take full width */
+                                        max-width: 1030px; /* Set the max width to control its size */
+                                       gap: 20px;
+                                    }
+                                    
+                                    .connection-img img {
+                                        max-width: 600px; /* Ensure image doesn't exceed this width */
+                                        height: auto; /* Maintain aspect ratio */
+                                    }
+                                    
+                                    .connection-content .con-content {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start; /* Aligns text to the left */
+                                        gap: 16px;
+                                    }
+                                    
+                                    .con-content h2 {
+                                        color: var(--Color-Dark-100, #212529);
+                                        font-family: "Crimson Text";
+                                        font-size: 40px;
+                                        font-weight: 700;
+                                        line-height: 125%; /* 50px */
+                                    }
+                                    
+                                    .con-content p {
+                                        color: var(--Color-Dark-50, rgba(33, 37, 41, 0.50));
+                                        font-family: "Work Sans";
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 125%; /* 18.75px */
+                                    }
+                                    
+                                    .con-content button {
+                                        width: 170px;
+                                        height: 48px;
+                                        border-radius: 5px;
+                                        background: var(--color-dark, #212529);
+                                        color: #FFF;
+                                        text-align: center;
+                                        font-family: "Work Sans";
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        line-height: 125%; /* 25px */
+                                    }
+                                    
 /* Media Queries */
 
 @media screen and (max-width:1040px) {
@@ -238,6 +306,21 @@ padding: 13px 29.5px 10px 29.5px;
      .partners-icons{
         display: flex;
         flex-wrap: wrap;
+     }
+     /* for connection section */
+     .connection-container{
+        display: flex;
+        flex-wrap: wrap;
+     }.connection-content .con-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }.con-content p{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
      }
 }
 
@@ -363,6 +446,44 @@ line-height: 125%; /* 37.5px */
         
         width: 90%;
         height: auto;
+    }
+
+    /* for connection-section */
+    
+    .connection-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .con-content {
+        display: flex;
+max-width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+    }
+    .con-content h2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-start;
+        text-align: start;
+        font-size: 24px;
+    }
+    .con-content p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        font-size: 15px;
+    }
+    .con-content button{
+        max-width: 170px;
+        display: flex;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 20px;
     }
 }
 
