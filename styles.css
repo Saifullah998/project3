@@ -15,7 +15,7 @@
 
 /* Navbar */
 .navbar {
-    padding: 35px 0px 0px 131px;
+    padding: 35px 0px 0px 89px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@
 .navigation-links ul {
     display: flex;
     gap: 30px;
-    /* margin-right: -194px; */
+    margin-right: -45px;
     list-style: none;
 }
 
@@ -61,7 +61,7 @@
 /* Hero Section */
 .hero-container {
     max-width: 1440px;
-    padding: 40px 130px  82px;
+    padding: 40px 83px  82px;
     display: flex;
     align-items: center;
     gap: 120px;
