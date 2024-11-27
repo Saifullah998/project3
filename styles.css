@@ -609,6 +609,51 @@ padding: 13px 29.5px 10px 29.5px;
         gap: 20px;
         flex-wrap: wrap;
      }
+    
+}
+@media screen and (max-width: 982px) {
+    .hero-container {
+        max-width: 100%;
+        padding: 40px 127px 0px 127px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: auto;
+        gap: 16px;
+        margin: auto;
+    }
+
+    .content h1 {
+        font-size: 33px;
+    }
+    .content .content-des{
+        font-size: 13px;
+    }
+    .navbar {
+        display: none;
+    }
+    .navigation-mob {
+        margin-top: 17px;
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 130px; 
+         
+        width: 100%;
+    }
+    .logo-mob{
+        display: flex;
+        gap: 15px;
+    }
+    .logo-mob h2{
+        /* width: 90%;
+        margin: auto; */
+        color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Work Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 37.5px */
+    }
 }
 
 /* 768px to 800px */
