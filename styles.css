@@ -564,12 +564,14 @@ padding: 13px 29.5px 10px 29.5px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        gap: 40px;
      }
      
      /* for connection section */
      .connection-container{
         display: flex;
         flex-wrap: wrap;
+        gap: 30px;
      }.connection-content .con-content {
         display: flex;
         flex-wrap: wrap;
@@ -587,6 +589,7 @@ padding: 13px 29.5px 10px 29.5px;
       .connection-container2{
         display: flex;
         flex-wrap: wrap;
+        gap: 30px;
      }
      .con-content2{
         order: 2;
@@ -599,7 +602,12 @@ padding: 13px 29.5px 10px 29.5px;
      .team-name-etc{
         display: flex;
         flex-wrap: wrap;
+        gap: 30px;
      }
+     .coonection-main-container{
+        /* padding-top: 59px; */
+     }
+     
 
      /* footer */
 
@@ -744,6 +752,9 @@ line-height: 125%; /* 37.5px */
     .connection-img img {
         max-width: 100%;
         height: auto;
+    }
+    .connection-container{
+        gap: 30px;
     }
     .con-content {
         display: flex;
@@ -1043,7 +1054,6 @@ gap: 30px;
                         /* Typography/Sub-Heading/Regular */
                         font-family: "Work Sans";
                         font-size: 19px;
-                     
                         
                        }
 
