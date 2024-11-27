@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 /* Universal Reset */
 * {
     margin: 0;
@@ -15,7 +19,7 @@
 
 /* Navbar */
 .navbar {
-    padding: 35px 0px 0px 89px;
+    padding: 35px 0px 0px 131px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +45,7 @@
 .navigation-links ul {
     display: flex;
     gap: 30px;
-    margin-right: -45px;
+    /* margin-right: -45px; */
     list-style: none;
 }
 
@@ -61,7 +65,8 @@
 /* Hero Section */
 .hero-container {
     max-width: 1440px;
-    padding: 40px 83px  82px;
+    padding: 40px 127px;
+    
     display: flex;
     align-items: center;
     gap: 120px;
@@ -74,12 +79,13 @@
 
 .content {
     display: flex;
+    padding-top: 40px;
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
 }
 
-.content p {
+.hero-welcome {
     color: var(--Text_White, #FFF);
     font-family: "Work Sans";
     font-size: 16px;
@@ -89,6 +95,7 @@
 }
 
 .content h1 {
+    max-width: 419px;
     color: var(--Text_White, #FFF);
     font-family: "Crimson Text";
     font-size: 40px;
@@ -103,7 +110,7 @@
     font-weight: 400;
     text-transform: lowercase;
     line-height: 125%;
-    max-width: 416px;
+    max-width: 411px;
 }
 
 .content button {
@@ -121,7 +128,7 @@
 
 .hero-image img {
     width: 100%;
-    max-width: 742px;
+    max-width: 644px;
     object-fit: cover;
 }
 
@@ -199,7 +206,7 @@ align-items: center;
 gap: 68px;
 }
 .partners-icons img{
-    width: 152.639px;
+    width: 163.639px;
     height: 50px;
 }
 .prtners-container button{
@@ -255,10 +262,10 @@ padding: 13px 29.5px 10px 29.5px;
                                         justify-content: center; /* Centers content horizontally inside the container */
                                         align-items: center; /* Centers image and content vertically */
                                         width: 100%; /* Make it take full width */
-                                        max-width: 1179px; 
-                                        /* max-width: 1180px; */
-                                       gap: 127px;
+                                        max-width: 1091px; 
+                                        gap: 60px; /* Adjust this value to control the gap between the image and content */
                                     }
+                                    
                                     
                                     .connection-img img {
                                         max-width: 600px; /* Ensure image doesn't exceed this width */
@@ -285,6 +292,7 @@ padding: 13px 29.5px 10px 29.5px;
                                         font-family: "Work Sans";
                                         font-size: 15px;
                                         font-weight: 400;
+                                        /* width: 470px; */
                                         line-height: 125%; /* 18.75px */
                                     }
                                     
@@ -327,9 +335,9 @@ padding: 13px 29.5px 10px 29.5px;
                                         justify-content: center; /* Centers content horizontally inside the container */
                                         align-items: center; /* Centers image and content vertically */
                                         width: 100%; /* Make it take full width */
-                                        max-width: 1179px; 
+                                        max-width: 1091px; 
                                         /* max-width: 1180px; */
-                                       gap: 127px;
+                                       gap: 60px;
                                     }
                                     
 
@@ -420,7 +428,7 @@ padding: 13px 29.5px 10px 29.5px;
                                         gap: 47px;
                                     }
                                     .outer-block-team{
-                                        width: 258px;
+                                        width: 237px;
                                         height: auto;
                                         border-radius: 5px;
                                         background: #FFF;
@@ -429,6 +437,7 @@ padding: 13px 29.5px 10px 29.5px;
                                     }
                                     .member{
                                         display: inline-flex;
+                                        padding: 20px 39px 19px 38px;
                                         flex-direction: column;
                                         align-items: center;
                                         gap: 19px;
@@ -483,7 +492,7 @@ padding: 13px 29.5px 10px 29.5px;
                                     
                                     .footer-container {
                                         display: flex;
-                                        max-width: 1179px;
+                                        max-width: 1091px;
                                         width: 100%;
                                         justify-content: space-between;
                                         align-items: center;
@@ -566,7 +575,8 @@ padding: 13px 29.5px 10px 29.5px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-     }.con-content p{
+     }
+     .con-content p{
         align-items: center;
         text-align: center;
         justify-content: center;
