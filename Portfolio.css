@@ -12,7 +12,8 @@
                                                         /* Navigation */
 
      .navbar-container{
-        max-width: 1440px;
+        width: 100%;
+        margin: auto;
         height: 123px;
         background: var(--Color-Green-100, #74C69D);
      } 
@@ -64,6 +65,7 @@
                                                     /* portfolio-container */
             .portfolio-container{
                 max-width: 1440px;
+                margin: auto;
                 height: auto;
                 background: #fff;
             }
@@ -160,6 +162,7 @@ background: #74C69D;
 margin-top: 109px;
 }
 .footer-container{
+    margin: auto;
     display: flex;
 max-width: 1178px;
 justify-content: space-between;

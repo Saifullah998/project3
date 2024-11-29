@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+/* Navigation */
+.navbar-container {
+    width: 100%;
+    /* max-width: 1440px; */
+    height: 123px;
+    background: var(--Color-Green-100, #74C69D);
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 35px 0px 38px 48px;
+}
+
+.logo span {
+    display: flex;
+    gap: 18px;
+}
+
+.logo span h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.navigation-links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navigation-links ul li a {
+    color: var(--Color-White-100, #FFF);
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.navigation-mob {
+    display: none;
+}
+
+/* Portfolio Section */
+.portfolio-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 60px 0;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.works-content {
+    color: var(--Color-Green-100, #74C69D);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.content-section h2 {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.des-content {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    max-width: 404px;
+}
+
+/* Pricing Section */
+.pricing-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 57px 0px 59px;
+    gap: 43px;
+    flex-wrap: wrap;
+}
+
+.pricing-container {
+    display: flex;
+    padding: 46px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic-plan {
+    color: #000;
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.price-span {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.price-span h4 {
+    color: #000;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.price-span-p {
+    color: var(--Color-Dark-50, rgba(33, 37, 41, 0.50));
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.price-des {
+    max-width: 279px;
+    color: var(--Color-Dark-50, rgba(33, 37, 41, 0.50));
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.price-li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 52px;
+    gap: 11px;
+}
+
+.price-li span {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.span-h6-pricing {
+    color: var(--Color-Dark-100, #212529);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.btn button {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background: var(--color-dark, #212529);
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+/* Footer */
+.footer-main-container {
+    width: 100%;
+    background: #74C69D;
+    /* margin-top: 135px; */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 51px 0px 52px 49px;
+    margin: 0 auto;
+    max-width: 1175px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-copy-reserved span {
+    color: var(--Color-White-100, #FFF);
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .pricing-main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .footer-main-container {
+        /* padding: 40px; */
+    }
+}
+
+@media screen and (max-width: 936px){
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+
+    .footer-copy-reserved span {
+        font-size: 16px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        height: 100px;
+        background: var(--Color-Green-100, #74C69D);
+    }
+
+    .navigation-mob {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* display: block; */
+        padding: 21px 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo-mob {
+        display: flex;
+        gap: 16px;
+    }
+
+    .logo-mob h2 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+
+    .footer-copy-reserved span {
+        font-size: 16px;
+        white-space: normal;
+    }
+}
+  /* Responsive adjustments for screens with width less than 500px */
+@media screen and (max-width: 500px) {
+    /* Adjust price description width for small screens */
+    .price-des {
+       
+        font-size: 13px; /* Reduce font size to fit better on small screens */
+    }
+
+    /* Pricing Section */
+    .pricing-main-container {
+        padding: 30px 20px; /* Adjust padding */
+        gap: 30px; /* Reduce gap between pricing cards */
+    }
+
+    .price-container {
+        width: 100%; /* Ensure it takes full width */
+        padding: 30px 20px; /* Adjust padding */
+    }
+
+    /* Footer Adjustments for smaller screens */
+    .footer-container {
+        flex-direction: column; /* Stack footer items */
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-icons {
+        justify-content: center; /* Center the icons */
+    }
+
+    .footer-copy-reserved span {
+        font-size: 14px; /* Slightly smaller font size */
+        white-space: normal; /* Allow text to wrap properly */
+    }
+
+    /* Portfolio Section Adjustments for mobile */
+    .works-content {
+        font-size: 14px; /* Make text smaller */
+    }
+
+    .content-section h2 {
+        font-size: 20px; /* Reduce heading font size */
+    }
+
+    /* Reduce margins and paddings in pricing section for very small screens */
+    .price-span h4 {
+        font-size: 30px; /* Smaller font size */
+    }
+
+    .basic-plan {
+        font-size: 12px; /* Smaller font size for plan descriptions */
+    }
+
+    .btn button {
+        width: 150px; /* Smaller button size */
+        font-size: 16px; /* Adjust button text size */
+    }
+
+    /* Adjust the spacing inside the pricing cards */
+    .price-li {
+        gap: 8px; /* Reduce gap between items */
+        padding-top: 40px; /* Adjust padding */
+    }
+
+    .span-h6-pricing {
+        font-size: 12px; /* Smaller text */
+    }
+}
+@media screen and (max-width: 372px) {
+    /* Adjust price description width for small screens */
+    .price-des {
+       max-width: 279px;
+        font-size: 15px; /* Reduce font size to fit better on small screens */
+    }
+}
